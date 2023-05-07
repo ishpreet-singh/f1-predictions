@@ -37,11 +37,7 @@ const PredictionControls = ({ predictions, onUpload }) => {
 
     return (
         <div className="prediction-controls">
-            <button type="button" className="download-predictions-btn" onClick={handleDownload}>
-                Download Predictions
-            </button>
             <div className="file-upload-container">
-                <label htmlFor="file-upload" className="file-upload-label">Upload Predictions:</label>
                 <input
                     id="file-upload"
                     type="file"
@@ -55,7 +51,12 @@ const PredictionControls = ({ predictions, onUpload }) => {
                     className="file-upload-btn"
                     onClick={() => fileInputRef.current.click()}
                 >
-                    Choose File
+                    Upload Predictions
+                </button>
+            </div>
+            <div className="file-download-container">
+                <button type="button" className="download-predictions-btn" onClick={handleDownload}>
+                    Download Predictions
                 </button>
             </div>
         </div>

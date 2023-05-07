@@ -37,13 +37,13 @@ function App() {
     <div className="App">
       <h1>F1 Predictions - Miami 🏁</h1>
       <PredictionForm drivers={driverNames} onSubmit={handleSubmit} />
+      <ResultUpload onUpload={handleResultUpload} />
       {originalStandings.length > 0 && userPredictions.length > 0 && (
         <Score
           originalStandings={originalStandings}
           userPredictions={userPredictions}
         />
       )}
-      <ResultUpload onUpload={handleResultUpload} />
     </div>
   );
 }

@@ -22,7 +22,6 @@ const ResultUpload = ({ onUpload }) => {
 
     return (
         <div className="result-upload-container">
-            <label htmlFor="file-upload" className="file-upload-label">Upload Results:</label>
             <input
                 id="result-upload"
                 type="file"
@@ -36,7 +35,7 @@ const ResultUpload = ({ onUpload }) => {
                 className="result-upload-btn"
                 onClick={() => fileInputRef.current.click()}
             >
-                Choose File
+            Upload Results
             </button>
         </div>
     );

@@ -14,9 +14,14 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 12em;
   }
 
   .file-upload-container {
+    margin-left: 1em;
+  }
+
+  .file-download-container {
     margin-left: 1em;
   }
 
@@ -32,5 +37,6 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    width: 12em;
   }
   

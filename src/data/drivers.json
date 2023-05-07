@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Max Verstappen",
+        "team": "Red Bull Racing"
+    },
+    {
+        "name": "Sergio Perez",
+        "team": "Mercedes AMG"
+    },
+    {
+        "name": "Fernando Alonso",
+        "team": "Aston Martin"
+    },
+    {
+        "name": "Lewis Hamilton",
+        "team": "Mercedes AMG"
+    },
+    {
+        "name": "Carlos Sainz",
+        "team": "Ferrari"
+    },
+    {
+        "name": "Charles Leclerc",
+        "team": "Ferrari"
+    },
+    {
+        "name": "George Russell",
+        "team": "Mercedes AMG"
+    },
+    {
+        "name": "Lance Stroll",
+        "team": "Aston Martin"
+    },
+    {
+        "name": "Lando Norris",
+        "team": "McLaren"
+    },
+    {
+        "name": "Niko Hulkenberg",
+        "team": "Haas"
+    },
+    {
+        "name": "Oscar Piastri",
+        "team": "McLaren"
+    },
+    {
+        "name": "Valtteri Bottas",
+        "team": "Alfa Romeo"
+    },
+    {
+        "name": "Esteban Ocon",
+        "team": "Alpine"
+    },
+    {
+        "name": "Pierre Gasly",
+        "team": "Alpine"
+    },
+    {
+        "name": "Zhou Guanyu",
+        "team": "Alfa Romeo"
+    },
+    {
+        "name": "Yuki Tsunoda",
+        "team": "AplhaTauri"
+    },
+    {
+        "name": "Alex Albon",
+        "team": "Williams"
+    },
+    {
+        "name": "Kevin Magnussen",
+        "team": "Haas"
+    },
+    {
+        "name": "Logan Sargeant",
+        "team": "Williams"
+    },
+    {
+        "name": "Nick De Vries",
+        "team": "AplhaTauri"
+    }
+]

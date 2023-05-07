@@ -1,0 +1,42 @@
+[
+    {
+        "rank": 1,
+        "name": "Lewis Hamilton"
+    },
+    {
+        "rank": 2,
+        "name": "Max Verstappen"
+    },
+    {
+        "rank": 3,
+        "name": "Valtteri Bottas"
+    },
+    {
+        "rank": 4,
+        "name": "Charles Leclerc"
+    },
+    {
+        "rank": 5,
+        "name": "Lando Norris"
+    },
+    {
+        "rank": 6,
+        "name": "George Russell"
+    },
+    {
+        "rank": 7,
+        "name": "Sergio Perez"
+    },
+    {
+        "rank": 8,
+        "name": "Carlos Sainz"
+    },
+    {
+        "rank": 9,
+        "name": "Sebastian Vettel"
+    },
+    {
+        "rank": 10,
+        "name": "Fernando Alonso"
+    }
+]

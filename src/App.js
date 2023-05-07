@@ -5,47 +5,49 @@ import Score from "./components/Score";
 import driversData from "./data/drivers.json";
 import driverResultsData from "./data/result.json";
 import ResultUpload from "./components/ResultUpload";
+import Footer from "./components/Footer";
 
 const mergeDriverResults = (drivers, results) => {
-  return results.map((result) => {
-    const driverInfo = drivers.find((driver) => driver.name === result.name);
-    return { ...result, ...driverInfo };
-  });
+    return results.map((result) => {
+        const driverInfo = drivers.find((driver) => driver.name === result.name);
+        return { ...result, ...driverInfo };
+    });
 };
 
 function App() {
-  const [originalStandings, setOriginalStandings] = useState([]);
-  const [userPredictions, setUserPredictions] = useState([]);
-  const [driverResults, setDriverResults] = useState(driverResultsData);
+    const [originalStandings, setOriginalStandings] = useState([]);
+    const [userPredictions, setUserPredictions] = useState([]);
+    const [driverResults, setDriverResults] = useState(driverResultsData);
 
-  const handleSubmit = (predictions) => {
-    setUserPredictions(predictions);
+    const handleSubmit = (predictions) => {
+        setUserPredictions(predictions);
 
-    const mergedDriverResults = mergeDriverResults(driversData, driverResults);
+        const mergedDriverResults = mergeDriverResults(driversData, driverResults);
 
-    // Set dummy standings using the drivers.json data
-    setOriginalStandings(mergedDriverResults);
-  };
+        // Set dummy standings using the drivers.json data
+        setOriginalStandings(mergedDriverResults);
+    };
 
-  const handleResultUpload = (newResults) => {
-    setDriverResults(newResults);
-  };
+    const handleResultUpload = (newResults) => {
+        setDriverResults(newResults);
+    };
 
-  const driverNames = driversData.map((driver) => driver.name);
+    const driverNames = driversData.map((driver) => driver.name);
 
-  return (
-    <div className="App">
-      <h1>F1 Predictions - Miami 🏁</h1>
-      <PredictionForm drivers={driverNames} onSubmit={handleSubmit} />
-      <ResultUpload onUpload={handleResultUpload} />
-      {originalStandings.length > 0 && userPredictions.length > 0 && (
-        <Score
-          originalStandings={originalStandings}
-          userPredictions={userPredictions}
-        />
-      )}
-    </div>
-  );
+    return (
+        <div className="App">
+            <h1>F1 Predictions - Miami 🏁</h1>
+            <PredictionForm drivers={driverNames} onSubmit={handleSubmit} />
+            <ResultUpload onUpload={handleResultUpload} />
+            {originalStandings.length > 0 && userPredictions.length > 0 && (
+                <Score
+                    originalStandings={originalStandings}
+                    userPredictions={userPredictions}
+                />
+            )}
+            <Footer />
+        </div>
+    );
 }
 
 export default App;

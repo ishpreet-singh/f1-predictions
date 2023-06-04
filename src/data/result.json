@@ -1,42 +1,42 @@
 [
     {
         "rank": 1,
-        "name": "Lewis Hamilton"
-    },
-    {
-        "rank": 2,
         "name": "Max Verstappen"
     },
     {
+        "rank": 2,
+        "name": "Lewis Hamilton"
+    },
+    {
         "rank": 3,
-        "name": "Valtteri Bottas"
-    },
-    {
-        "rank": 4,
-        "name": "Charles Leclerc"
-    },
-    {
-        "rank": 5,
-        "name": "Lando Norris"
-    },
-    {
-        "rank": 6,
         "name": "George Russell"
     },
     {
-        "rank": 7,
+        "rank": 4,
         "name": "Sergio Perez"
     },
     {
-        "rank": 8,
+        "rank": 5,
         "name": "Carlos Sainz"
     },
     {
+        "rank": 6,
+        "name": "Lance Stroll"
+    },
+    {
+        "rank": 7,
+        "name": "Fernando Alonso"
+    },
+    {
+        "rank": 8,
+        "name": "Esteban Ocon"
+    },
+    {
         "rank": 9,
-        "name": "Sebastian Vettel"
+        "name": "Zhou Guanyu"
     },
     {
         "rank": 10,
-        "name": "Fernando Alonso"
+        "name": "Pierre Gasly"
     }
 ]
